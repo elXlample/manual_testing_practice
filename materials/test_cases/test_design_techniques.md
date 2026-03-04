@@ -2,9 +2,9 @@
 
 1. Equivalence classes & boundary values analysis
 
-2. **Decision Table Testing**
+2. Decision Table Testing
 
-3. **Error Guessing**
+3. Error Guessing
 
 4. Pairwise testing
 
@@ -28,7 +28,7 @@ We need to split all the dates using following logic:
 
 Using boundary values analysis we should check:
 
-![](C:\Users\nickr\AppData\Roaming\marktext\images\2026-03-02-23-00-28-image.png)
+![Scale example](assets/scale.jpg)
 
     -lower boundary - 1 (0)
 
@@ -111,8 +111,6 @@ For example, we need to validate a username field on the website. Since we alrea
 
 This test-design technique is used when we have a lot of parameters and their combinations. For example, we need to test our application on different devices (Desktop, Mobile, Smart TV) in most popular browsers (Chrome, Safari, Edge) using different quality settings (SD, HD, 4K) and subscription type (Free, Standard, Premium).
 
-![](C:\Users\nickr\AppData\Roaming\marktext\images\2026-03-04-13-09-12-image.png)
-
 Using an *exhaustive search* a tester will need to perform 3x3x3x3 = 81 test-cases.
 
 But if he uses pairwise testing, it will take only 9 test-cases:
@@ -135,7 +133,7 @@ We have 2 type of entities in this approach: states and actions we need to take 
 
 For example, let's look at the log-in page:
 
-    ![](C:\Users\nickr\AppData\Roaming\marktext\images\2026-03-04-13-34-23-image.png)    
+    ![State diagram example](assets/state_diagram.jpg)   
 
 We can create test-cases using this diagram:
 
